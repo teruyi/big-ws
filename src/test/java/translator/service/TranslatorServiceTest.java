@@ -21,7 +21,7 @@ public class TranslatorServiceTest {
     @Test
     public void translateTest() throws Exception {
         TranslatedText translatedText = translatorService.translate("en", "es", "i'm Sergio, who are you?");
-        assertEquals("yo soy sergio, ¿quién eres tú?",translatedText.getTranslation());
+        assertEquals("soy Sergio, ¿quién eres tú?",translatedText.getTranslation());
     }
 
 }
